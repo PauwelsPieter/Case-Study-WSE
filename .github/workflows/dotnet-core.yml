@@ -1,6 +1,9 @@
 name: .NET Core
 
-on: [push]
+on:
+  push:
+    tags: 
+      - 'v*'
 
 jobs:
   build:
@@ -24,3 +27,13 @@ jobs:
         path: /home/runner/work/Case-Study-WSE/Case-Study-WSE/bin/Release/netcoreapp3.1/win-x64/publish/Case Study.exe
     - name: Show contents of the current working directory
       run: ls -la
+    - name: Create Release Asset
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
