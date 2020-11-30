@@ -1,0 +1,24 @@
+name: .NET Core
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: 3.1.301
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build .exe
+      run: dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: Case-Study-WSE
+        path: /home/runner/work/Case-Study-WSE/Case-Study-WSE/bin/Release/netcoreapp3.1/win-x64/publish/Case Study.exe
