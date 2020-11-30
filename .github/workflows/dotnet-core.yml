@@ -22,3 +22,5 @@ jobs:
       with:
         name: Case-Study-WSE
         path: /home/runner/work/Case-Study-WSE/Case-Study-WSE/bin/Release/netcoreapp3.1/win-x64/publish/Case Study.exe
+    - name: Show contents of the current working directory
+      run: ls -la
