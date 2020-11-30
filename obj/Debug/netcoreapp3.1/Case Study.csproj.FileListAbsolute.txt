@@ -1,0 +1,13 @@
+D:\School\2020-2021\Windows Server Essentials\Case Study\bin\Debug\netcoreapp3.1\Case Study.exe
+D:\School\2020-2021\Windows Server Essentials\Case Study\bin\Debug\netcoreapp3.1\Case Study.deps.json
+D:\School\2020-2021\Windows Server Essentials\Case Study\bin\Debug\netcoreapp3.1\Case Study.runtimeconfig.json
+D:\School\2020-2021\Windows Server Essentials\Case Study\bin\Debug\netcoreapp3.1\Case Study.runtimeconfig.dev.json
+D:\School\2020-2021\Windows Server Essentials\Case Study\bin\Debug\netcoreapp3.1\Case Study.dll
+D:\School\2020-2021\Windows Server Essentials\Case Study\bin\Debug\netcoreapp3.1\Case Study.pdb
+D:\School\2020-2021\Windows Server Essentials\Case Study\obj\Debug\netcoreapp3.1\Case Study.csprojAssemblyReference.cache
+D:\School\2020-2021\Windows Server Essentials\Case Study\obj\Debug\netcoreapp3.1\Case Study.AssemblyInfoInputs.cache
+D:\School\2020-2021\Windows Server Essentials\Case Study\obj\Debug\netcoreapp3.1\Case Study.AssemblyInfo.cs
+D:\School\2020-2021\Windows Server Essentials\Case Study\obj\Debug\netcoreapp3.1\Case Study.csproj.CoreCompileInputs.cache
+D:\School\2020-2021\Windows Server Essentials\Case Study\obj\Debug\netcoreapp3.1\Case Study.dll
+D:\School\2020-2021\Windows Server Essentials\Case Study\obj\Debug\netcoreapp3.1\Case Study.pdb
+D:\School\2020-2021\Windows Server Essentials\Case Study\obj\Debug\netcoreapp3.1\Case Study.genruntimeconfig.cache
