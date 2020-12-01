@@ -65,7 +65,7 @@ namespace Case_Study
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("\nDe berekende " + ShapeSelected.getName() + " heeft als oppervlakte: " + ShapeSelected.calculateResult(ShapeValueA, ShapeValueB));
             Console.ForegroundColor = ConsoleColor.White;
-            Console.Write("\nDruk enter om het programma af te sluiten.");
+            Console.Write("\nDruk enter om het programma af te sluiten.....");
             Console.Read();
         }
     }
