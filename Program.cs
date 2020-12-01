@@ -15,6 +15,9 @@ namespace Case_Study
             double ShapeValueA = 0;
             double ShapeValueB = 0;
 
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Welkom! Laatst gewijzigd op 1/12/2020 17:08");\
+             Console.ForegroundColor = ConsoleColor.White;
 
             //Show all possible shapes
             int counter = 1;
