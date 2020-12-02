@@ -1,4 +1,4 @@
-name: .NET Core
+name: Case Study GitHub Actions
 
 on:
   push:
